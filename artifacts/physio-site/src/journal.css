@@ -1,0 +1,1021 @@
+/*
+ * Loaded with Journal routes instead of the global shell stylesheet.
+ * Keeping these selectors local removes the large typography plugin output from
+ * every route while preserving the SSR article layout.
+ */
+.journal-category-cover-neuro {
+  background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%);
+}
+
+.journal-category-cover-ortho {
+  background: linear-gradient(135deg, #e0f2fe 0%, #bfdbfe 100%);
+}
+
+.journal-category-cover-occupation {
+  background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+}
+
+.journal-category-cover-cardio {
+  background: linear-gradient(135deg, #ffe4e6 0%, #fecaca 100%);
+}
+
+.journal-category-cover-pulmonary {
+  background: linear-gradient(135deg, #fff7ed 0%, #fed7aa 100%);
+}
+
+.journal-category-cover-home {
+  background: linear-gradient(135deg, #ecfdf5 0%, #6ee7b7 100%);
+}
+
+.journal-category-cover-city {
+  background: linear-gradient(135deg, #fef9c3 0%, #fde68a 100%);
+}
+
+.journal-category-cover-default {
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+}
+
+.journal-category-icon-neuro {
+  color: #7c3aed;
+}
+
+.journal-category-icon-ortho {
+  color: #1d4ed8;
+}
+
+.journal-category-icon-occupation {
+  color: #059669;
+}
+
+.journal-category-icon-cardio {
+  color: #e11d48;
+}
+
+.journal-category-icon-pulmonary {
+  color: #ea580c;
+}
+
+.journal-category-icon-home {
+  color: #0d9488;
+}
+
+.journal-category-icon-city {
+  color: #b45309;
+}
+
+.journal-category-icon-default {
+  color: #2563eb;
+}
+
+.journal-card {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 430px;
+}
+
+.journal-prose {
+  max-width: none;
+  color: hsl(var(--muted-foreground));
+  font-size: 1.125rem;
+  line-height: 1.75;
+}
+
+.journal-prose > * + * {
+  margin-top: 1.5rem;
+}
+
+.journal-prose h2,
+.journal-prose h3 {
+  color: hsl(var(--foreground));
+  font-family: var(--font-serif);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.journal-prose h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.journal-prose h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.journal-prose p {
+  color: hsl(var(--muted-foreground));
+  line-height: 1.75;
+}
+
+.journal-prose strong {
+  color: hsl(var(--foreground));
+  font-weight: 600;
+}
+
+.journal-prose em {
+  font-style: italic;
+}
+
+.journal-prose ul,
+.journal-prose ol {
+  margin-block: 1.5rem;
+  padding-inline-start: 1.5rem;
+}
+
+.journal-prose li {
+  color: hsl(var(--muted-foreground));
+  padding-inline-start: 0.5rem;
+}
+
+.journal-prose a {
+  color: hsl(var(--primary));
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+}
+
+.journal-prose a:hover {
+  color: hsl(var(--primary) / 0.8);
+}
+
+.journal-article-header {
+  border-bottom: 1px solid hsl(var(--border));
+  padding: 3.5rem 0 4rem;
+}
+
+.journal-clinical-header {
+  background:
+    radial-gradient(circle at 8% 10%, hsl(215 70% 96%), transparent 36%),
+    linear-gradient(135deg, hsl(var(--background)), hsl(210 38% 94%));
+}
+
+.journal-orthopaedic-header {
+  background:
+    radial-gradient(circle at 12% 20%, hsl(188 60% 91%), transparent 36%),
+    linear-gradient(135deg, hsl(202 34% 96%), hsl(188 38% 89%));
+}
+
+.journal-neuro-header {
+  background:
+    radial-gradient(circle at 85% 8%, hsl(263 75% 94%), transparent 34%),
+    linear-gradient(135deg, hsl(260 32% 97%), hsl(246 35% 92%));
+}
+
+.journal-city-header {
+  background:
+    radial-gradient(circle at 84% 15%, hsl(42 90% 91%), transparent 34%),
+    linear-gradient(135deg, hsl(38 45% 97%), hsl(31 48% 91%));
+}
+
+.journal-article-header-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.62fr);
+  gap: 3rem;
+  align-items: end;
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.journal-article-header-copy {
+  min-width: 0;
+}
+
+.journal-back-link {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  color: hsl(var(--muted-foreground));
+  font-size: 0.875rem;
+  font-weight: 700;
+  transition: color 160ms ease;
+}
+
+.journal-back-link:hover {
+  color: hsl(var(--primary));
+}
+
+.journal-header-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.journal-category-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid hsl(var(--border));
+  border-radius: 999px;
+  background: hsl(var(--background) / 0.84);
+  color: hsl(var(--primary));
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+}
+
+.journal-header-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: hsl(var(--muted-foreground));
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.journal-article-title {
+  max-width: 47rem;
+  margin: 0 0 1.75rem;
+  color: hsl(var(--foreground));
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 5vw, 4.65rem);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.02;
+}
+
+.journal-article-byline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 1.5rem;
+  color: hsl(var(--muted-foreground));
+  font-size: 0.875rem;
+}
+
+.journal-article-byline > div:first-child > div:first-child {
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 999px;
+  background: hsl(var(--primary) / 0.12);
+  color: hsl(var(--primary));
+  font-family: var(--font-serif);
+  font-weight: 800;
+}
+
+.journal-review-line,
+.journal-header-disclosure {
+  max-width: 40rem;
+  color: hsl(var(--muted-foreground));
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.journal-review-line {
+  margin: 1rem 0 0;
+}
+
+.journal-header-disclosure {
+  margin: 1rem 0 0;
+}
+
+.journal-header-booking {
+  display: inline-flex;
+  margin-top: 1.5rem;
+}
+
+.journal-article-header-art {
+  position: relative;
+  min-height: 21rem;
+  overflow: hidden;
+  border: 1px solid hsl(var(--border));
+  border-radius: 1.75rem 1.75rem 0.4rem 1.75rem;
+  background: hsl(var(--foreground) / 0.08);
+  box-shadow: 0 1.5rem 3rem hsl(var(--foreground) / 0.12);
+}
+
+.journal-article-header-art::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 32%, hsl(var(--foreground) / 0.78));
+  content: "";
+}
+
+.journal-article-header-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 21rem;
+  object-fit: cover;
+}
+
+.journal-article-header-caption {
+  position: absolute;
+  z-index: 1;
+  right: 1.25rem;
+  bottom: 1.15rem;
+  left: 1.25rem;
+  display: grid;
+  gap: 0.35rem;
+  color: white;
+}
+
+.journal-article-header-caption span,
+.journal-article-header-caption small {
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.journal-article-header-caption strong {
+  max-width: 21rem;
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.journal-article-header-caption small {
+  color: hsl(0 0% 100% / 0.78);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.journal-article-tools {
+  display: grid;
+  gap: 1.25rem;
+  margin-bottom: 2.75rem;
+}
+
+.journal-at-a-glance,
+.journal-comparison-card,
+.journal-safety-panel {
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem;
+  border: 1px solid hsl(var(--border));
+  border-radius: 1.25rem;
+}
+
+.journal-at-a-glance {
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  background: hsl(var(--primary) / 0.07);
+}
+
+.journal-orthopaedic-glance {
+  border-color: hsl(188 38% 72%);
+  background: hsl(188 52% 94%);
+}
+
+.journal-tool-eyebrow {
+  margin: 0;
+  color: hsl(var(--primary));
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.journal-at-a-glance h2,
+.journal-comparison-card h2,
+.journal-safety-panel h2,
+.journal-do-card h2,
+.journal-dont-card h2 {
+  margin: 0.4rem 0 0;
+  color: hsl(var(--foreground));
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.journal-at-a-glance > p,
+.journal-comparison-card > p,
+.journal-safety-panel p:last-child {
+  margin: 0;
+  color: hsl(var(--muted-foreground));
+  font-size: 0.96rem;
+  line-height: 1.65;
+}
+
+.journal-contents {
+  padding: 1.25rem 1.5rem;
+  border: 1px solid hsl(var(--border));
+  border-radius: 1.25rem;
+  background: hsl(var(--background));
+}
+
+.journal-contents-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: hsl(var(--foreground));
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.journal-contents-list {
+  display: grid;
+  gap: 0.6rem;
+  margin-top: 0.85rem;
+  padding: 0;
+  list-style: none;
+  counter-reset: journal-content;
+}
+
+.journal-contents-list li {
+  counter-increment: journal-content;
+}
+
+.journal-contents-list a,
+.journal-detail-card a {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  align-items: start;
+  gap: 0.7rem;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid hsl(var(--border) / 0.8);
+  border-radius: 0.85rem;
+  background: hsl(var(--accent) / 0.14);
+  color: hsl(var(--primary));
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+
+.journal-contents-list a::before {
+  content: counter(journal-content, decimal-leading-zero);
+  display: grid;
+  place-items: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 999px;
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  font-size: 0.72rem;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.journal-contents-list a:hover,
+.journal-detail-card a:hover {
+  color: hsl(var(--primary) / 0.8);
+}
+
+.journal-article-sections {
+  display: grid;
+  gap: 0;
+}
+
+.journal-article-intro {
+  margin-bottom: 1.25rem;
+  padding: 1.35rem 1.5rem;
+  border: 1px solid hsl(var(--primary) / 0.18);
+  border-left: 0.35rem solid hsl(var(--primary));
+  border-radius: 0 1.1rem 1.1rem 0;
+  background: linear-gradient(135deg, hsl(var(--primary) / 0.08), hsl(var(--background)));
+}
+
+.journal-article-intro p {
+  margin: 0;
+}
+
+.journal-lede {
+  color: hsl(var(--foreground)) !important;
+  font-size: 1.2rem;
+  line-height: 1.7 !important;
+}
+
+.journal-article-section {
+  scroll-margin-top: 2rem;
+  padding: 1.75rem 0 2rem;
+  border-top: 1px solid hsl(var(--border));
+}
+
+.journal-article-section > * + * {
+  margin-top: 1.15rem;
+}
+
+.journal-section-heading {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  gap: 0.85rem;
+  margin: 0;
+  scroll-margin-top: 2rem;
+}
+
+.journal-section-number {
+  display: grid;
+  place-items: center;
+  width: 2.35rem;
+  height: 2.35rem;
+  border-radius: 0.8rem;
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.journal-article-section h3 {
+  margin: 0;
+}
+
+.journal-structured-list {
+  display: grid;
+  gap: 0.65rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.journal-structured-list li {
+  position: relative;
+  padding: 0.85rem 1rem 0.85rem 3.25rem;
+  border: 1px solid hsl(var(--border));
+  border-radius: 0.9rem;
+  background: hsl(var(--accent) / 0.12);
+  color: hsl(var(--muted-foreground));
+}
+
+.journal-structured-list li::before {
+  position: absolute;
+  top: 0.7rem;
+  left: 0.85rem;
+  display: grid;
+  place-items: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 999px;
+  background: hsl(var(--primary) / 0.13);
+  color: hsl(var(--primary));
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.journal-ordered-list {
+  counter-reset: journal-step;
+}
+
+.journal-ordered-list li {
+  counter-increment: journal-step;
+}
+
+.journal-ordered-list li::before {
+  content: counter(journal-step, decimal-leading-zero);
+}
+
+.journal-unordered-list li::before {
+  content: "•";
+  font-size: 1.1rem;
+}
+
+.journal-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.journal-detail-card {
+  height: fit-content;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid hsl(var(--border));
+  border-radius: 1.25rem;
+  background: hsl(var(--accent) / 0.18);
+}
+
+.journal-detail-card summary {
+  cursor: pointer;
+  color: hsl(var(--foreground));
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.journal-detail-card > div {
+  display: grid;
+  gap: 0.7rem;
+  padding-top: 1rem;
+  color: hsl(var(--muted-foreground));
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.journal-detail-card p {
+  margin: 0;
+}
+
+.journal-comparison-card {
+  background: hsl(188 52% 96%);
+}
+
+.journal-tool-heading {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.journal-comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  overflow: hidden;
+  border: 1px solid hsl(188 38% 78%);
+  border-radius: 1rem;
+}
+
+.journal-comparison-grid > div {
+  display: grid;
+  gap: 0.45rem;
+  padding: 1rem;
+  background: hsl(var(--background) / 0.78);
+}
+
+.journal-comparison-grid > div + div {
+  border-left: 1px solid hsl(188 38% 78%);
+}
+
+.journal-comparison-grid strong {
+  color: hsl(var(--foreground));
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+}
+
+.journal-comparison-grid span {
+  color: hsl(var(--muted-foreground));
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.journal-tool-note {
+  font-size: 0.86rem !important;
+}
+
+.journal-safety-panel {
+  grid-template-columns: auto minmax(0, 1fr);
+  border-color: hsl(4 55% 78%);
+  background: hsl(8 70% 97%);
+}
+
+.journal-safety-icon {
+  width: 2rem;
+  height: 2rem;
+  color: hsl(4 65% 42%);
+}
+
+.journal-do-dont-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.journal-do-card,
+.journal-dont-card {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.85rem;
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+}
+
+.journal-do-card {
+  border: 1px solid hsl(158 28% 78%);
+  background: hsl(158 42% 95%);
+}
+
+.journal-dont-card {
+  border: 1px solid hsl(8 45% 83%);
+  background: hsl(8 70% 97%);
+}
+
+.journal-do-card > svg {
+  color: hsl(158 48% 30%);
+}
+
+.journal-dont-card > svg {
+  color: hsl(8 55% 42%);
+}
+
+.journal-do-card ul,
+.journal-dont-card ul {
+  display: grid;
+  gap: 0.65rem;
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+  color: hsl(var(--muted-foreground));
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.journal-nutrition-header {
+  border-bottom: 1px solid hsl(var(--border));
+  background:
+    radial-gradient(circle at 12% 12%, hsl(158 42% 94% / 0.95), transparent 34%),
+    linear-gradient(135deg, hsl(42 42% 96%), hsl(157 32% 92%));
+  padding: 3.5rem 0 4rem;
+}
+
+.journal-nutrition-header-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.62fr);
+  gap: 3rem;
+  align-items: end;
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.journal-header-kicker,
+.nutrition-eyebrow {
+  color: hsl(158 48% 30%);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.journal-nutrition-header-art {
+  position: relative;
+  min-height: 21rem;
+  overflow: hidden;
+  border: 1px solid hsl(158 25% 76%);
+  border-radius: 1.75rem 1.75rem 0.4rem 1.75rem;
+  box-shadow: 0 1.5rem 3rem hsl(158 30% 30% / 0.12);
+}
+
+.journal-nutrition-header-art::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 34%, hsl(158 35% 15% / 0.72));
+  content: "";
+}
+
+.journal-nutrition-header-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 21rem;
+  object-fit: cover;
+}
+
+.journal-nutrition-header-caption {
+  position: absolute;
+  z-index: 1;
+  right: 1.25rem;
+  bottom: 1.15rem;
+  left: 1.25rem;
+  display: grid;
+  gap: 0.35rem;
+  color: white;
+}
+
+.journal-nutrition-header-caption span,
+.journal-nutrition-header-caption small {
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.journal-nutrition-header-caption strong {
+  max-width: 21rem;
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.journal-nutrition-header-caption small {
+  color: hsl(0 0% 100% / 0.78);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.nutrition-journal-tools {
+  display: grid;
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.nutrition-quick-answer,
+.nutrition-warning-panel,
+.nutrition-do-dont-grid,
+.nutrition-tool-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.nutrition-quick-answer,
+.nutrition-warning-panel {
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  padding: 1.5rem;
+  border: 1px solid hsl(158 28% 78%);
+  border-radius: 1.25rem;
+}
+
+.nutrition-quick-answer {
+  background: hsl(158 42% 95%);
+}
+
+.nutrition-warning-panel {
+  background: hsl(39 90% 96%);
+  border-color: hsl(37 74% 73%);
+}
+
+.nutrition-quick-answer h2,
+.nutrition-warning-panel h2,
+.nutrition-do-card h2,
+.nutrition-dont-card h2,
+.nutrition-physio-boundary h2 {
+  margin: 0.4rem 0 0;
+  color: hsl(var(--foreground));
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.nutrition-quick-answer p:last-child,
+.nutrition-warning-panel p:last-child {
+  margin: 0;
+  color: hsl(var(--muted-foreground));
+  font-size: 0.96rem;
+  line-height: 1.65;
+}
+
+.nutrition-contents {
+  padding: 1.25rem 1.5rem;
+  border: 1px solid hsl(var(--border));
+  border-radius: 1.25rem;
+  background: hsl(var(--background));
+}
+
+.nutrition-contents-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem 1rem;
+  margin-top: 0.85rem;
+}
+
+.nutrition-contents-grid a,
+.nutrition-detail-card a {
+  color: hsl(var(--primary));
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+
+.nutrition-tool-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.nutrition-detail-card {
+  height: fit-content;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid hsl(var(--border));
+  border-radius: 1.25rem;
+  background: hsl(var(--accent) / 0.18);
+}
+
+.nutrition-detail-card summary {
+  cursor: pointer;
+  color: hsl(var(--foreground));
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.nutrition-detail-card > div {
+  display: grid;
+  gap: 0.7rem;
+  padding-top: 1rem;
+  color: hsl(var(--muted-foreground));
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.nutrition-detail-card p {
+  margin: 0;
+}
+
+.nutrition-warning-panel {
+  grid-template-columns: auto minmax(0, 1fr);
+}
+
+.nutrition-warning-icon {
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  background: hsl(37 75% 45%);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.nutrition-do-dont-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.nutrition-do-card,
+.nutrition-dont-card {
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+}
+
+.nutrition-do-card {
+  background: hsl(158 42% 95%);
+  border: 1px solid hsl(158 28% 78%);
+}
+
+.nutrition-dont-card {
+  background: hsl(8 70% 97%);
+  border: 1px solid hsl(8 45% 83%);
+}
+
+.nutrition-do-card ul,
+.nutrition-dont-card ul {
+  display: grid;
+  gap: 0.65rem;
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+  color: hsl(var(--muted-foreground));
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.nutrition-physio-boundary {
+  margin-top: 2.5rem;
+  padding: 1.5rem;
+  border-left: 4px solid hsl(158 48% 30%);
+  border-radius: 0 1.25rem 1.25rem 0;
+  background: hsl(158 42% 95%);
+}
+
+.nutrition-physio-boundary p:not(.nutrition-eyebrow) {
+  color: hsl(var(--muted-foreground));
+  font-size: 0.96rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 767px) {
+  .journal-article-header {
+    padding: 2rem 0 2.5rem;
+  }
+
+  .journal-article-header-inner,
+  .journal-at-a-glance,
+  .journal-safety-panel,
+  .journal-do-dont-grid,
+  .journal-detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .journal-article-header-inner {
+    gap: 2rem;
+  }
+
+  .journal-article-title {
+    font-size: clamp(2.35rem, 12vw, 3.4rem);
+  }
+
+  .journal-article-header-art,
+  .journal-article-header-art img {
+    min-height: 16rem;
+  }
+
+  .journal-comparison-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .journal-comparison-grid > div + div {
+    border-top: 1px solid hsl(188 38% 78%);
+    border-left: 0;
+  }
+
+  .journal-contents-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .journal-nutrition-header {
+    padding: 2rem 0 2.5rem;
+  }
+
+  .journal-nutrition-header-inner,
+  .nutrition-quick-answer,
+  .nutrition-warning-panel,
+  .nutrition-tool-grid,
+  .nutrition-do-dont-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .journal-nutrition-header-inner {
+    gap: 2rem;
+  }
+
+  .journal-nutrition-header-art,
+  .journal-nutrition-header-art img {
+    min-height: 16rem;
+  }
+
+  .nutrition-contents-grid {
+    grid-template-columns: 1fr;
+  }
+}

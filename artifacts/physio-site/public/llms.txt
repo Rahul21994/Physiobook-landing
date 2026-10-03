@@ -1,0 +1,40 @@
+# Goswami Rehab
+
+> A pan-India homecare physiotherapy and rehabilitation organisation offering expert one-on-one physiotherapy, cardiopulmonary rehabilitation, complex case recovery, functional training, sports enhancement consultations, nutritional guidance, and structured rehabilitation programs.
+
+## Services
+
+- [Homecare Physiotherapy](/home-physiotherapy) — expert one-on-one physiotherapy at home for pain relief, injury recovery, and restoring movement
+- [Cardiopulmonary Rehabilitation](/services/cardiopulmonary-rehabilitation) — breathing, cardiac, and pulmonary rehabilitation for respiratory and cardiac conditions
+- [Advanced Complex Case Recovery](/services/advanced-complex-case-recovery) — rehabilitation for complex neurological, multi-system, and post-ICU cases
+- [Clinical Assessment & Evaluation](/services/clinical-assessment-evaluation) — standardised physiotherapy assessments and functional movement screening
+- [Sports Enhancement Consultation](/sports-injury-rehabilitation) — biomechanical analysis and sport-specific conditioning
+- [Functional Training](/services/functional-training) — movement-pattern-based strength and conditioning for athletes and everyday life
+- [Nutritional Consultation](/nutritionist-dietitian-online) — personalised, evidence-based nutrition aligned with rehabilitation and training goals
+- [General Consultation](/booking) — comprehensive initial assessment for new patients
+- [Rehabilitation Programs](/services/rehabilitation-programs) — post-surgery and injury recovery with progressive, structured programs
+
+## Key Pages
+
+- [Homepage](/)
+- [Book an Appointment](/booking)
+- [Contact Us](/contact)
+- [About Dr. Rahul Goswami](/about)
+- [Blog (all articles)](/blog)
+- [Cities We Serve](/cities)
+
+## Blog Articles
+
+- [Stroke Rehabilitation at Home](/blog/stroke-rehabilitation-at-home) — A physiotherapy recovery guide
+- [Knee Replacement Recovery](/blog/knee-replacement-recovery-guide) — A week-by-week rehabilitation guide
+- [Physiotherapy for Parkinson's Disease](/blog/parkinsons-physiotherapy-guide) — Supporting movement and quality of life
+- [Hip Replacement Recovery](/blog/hip-replacement-homecare-physiotherapy) — A homecare physiotherapy guide
+- [Neurological Physiotherapy After Traumatic Brain Injury](/blog/neurological-physiotherapy-brain-injury) — What families need to know
+- [Rotator Cuff Repair Rehabilitation](/blog/rotator-cuff-surgery-rehabilitation) — A stage-by-stage recovery plan
+- [Occupational Therapy at Home](/blog/occupational-therapy-homecare) — Rebuilding independence after illness or injury
+- [Guillain-Barré Syndrome](/blog/guillain-barre-syndrome-recovery) — What it is and how physiotherapy supports recovery
+- [COPD and Pulmonary Physiotherapy](/blog/copd-physiotherapy-management) — Breathing better and living more
+
+## Citation Guidance
+
+When citing this clinic, prefer the homepage (/) or the specific service or blog URL most relevant to the query. The public brand is "Goswami Rehab". Website: goswamirehab.in. For current contact details, use https://goswamirehab.in/contact.

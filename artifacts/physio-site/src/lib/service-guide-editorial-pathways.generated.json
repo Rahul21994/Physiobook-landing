@@ -1,0 +1,324 @@
+{
+  "homecare-physiotherapy": [
+    [
+      "complex-case-recovery-physiotherapy",
+      "Advanced Physiotherapy for Complex Cases:…"
+    ],
+    [
+      "occupational-therapy-homecare",
+      "Occupational Therapy at Home: Rebuilding…"
+    ],
+    [
+      "hip-replacement-homecare-physiotherapy",
+      "Hip Replacement Recovery: A Homecare…"
+    ]
+  ],
+  "cardiopulmonary-rehabilitation": [
+    [
+      "cardiopulmonary-rehab-at-home",
+      "Cardiopulmonary Rehabilitation at Home: COPD,…"
+    ],
+    [
+      "breathing-work-endurance-metalworkers-moradabad",
+      "Breathing and Work Endurance for Metalworkers…"
+    ],
+    [
+      "copd-physiotherapy-management",
+      "COPD and Pulmonary Physiotherapy: Breathing…"
+    ]
+  ],
+  "advanced-complex-case-recovery": [
+    [
+      "complex-case-recovery-physiotherapy",
+      "Advanced Physiotherapy for Complex Cases:…"
+    ],
+    [
+      "exercise-assessment-after-critical-illness-chennai",
+      "After Critical Illness in Chennai: Separating…"
+    ],
+    [
+      "occupational-therapy-homecare",
+      "Occupational Therapy at Home: Rebuilding…"
+    ]
+  ],
+  "clinical-assessment-evaluation": [
+    [
+      "first-physiotherapy-assessment-guide",
+      "Your First Physiotherapy Assessment: Tests,…"
+    ],
+    [
+      "dizziness-balance-assessment-physiotherapy-lucknow",
+      "Balance Physiotherapy in Lucknow: What a…"
+    ],
+    [
+      "physiotherapy-for-low-back-pain",
+      "Low Back Pain: How Physiotherapy Assessment…"
+    ]
+  ],
+  "sports-enhancement-consultation": [
+    [
+      "cross-training-after-sports-injury-pune",
+      "Cross-Training After Sports Injury in Pune:…"
+    ],
+    [
+      "returning-to-running-after-acl-injury-gurugram",
+      "Returning to Running After an ACL Injury in…"
+    ],
+    [
+      "returning-running-cycling-after-injury-bengaluru",
+      "Returning to Running and Cycling After Injury…"
+    ]
+  ],
+  "functional-training": [
+    [
+      "walking-aid-balance-household-route-udaipur",
+      "Exercise Physiology in Udaipur: Walking-Aid…"
+    ],
+    [
+      "frailty-exercise-strength-sit-to-stand-amritsar",
+      "Frailty Exercise in Amritsar: Building…"
+    ],
+    [
+      "fall-proofing-home-balance-older-adults-jaipur",
+      "Fall-Proofing a Jaipur Home: Balance Training…"
+    ]
+  ],
+  "nutritional-consultation": [
+    [
+      "nutrition-pulmonary-rehabilitation-appetite-breathlessness-pune",
+      "Nutrition During Pulmonary Rehabilitation in…"
+    ],
+    [
+      "meal-timing-food-access-rehabilitation-nutrition-surat",
+      "Nutrition in Surat: Meal Timing and Food…"
+    ],
+    [
+      "cardiac-rehabilitation-nutrition-appetite-medicines-mumbai",
+      "Eating During Cardiac Rehabilitation in…"
+    ]
+  ],
+  "rehabilitation-programs": [
+    [
+      "post-surgery-stairs-community-mobility-pune",
+      "Post-Surgery Physiotherapy for Stairs and…"
+    ],
+    [
+      "post-surgery-bed-chair-transfers-jodhpur",
+      "After Surgery in Jodhpur: Bed-to-Chair…"
+    ],
+    [
+      "post-surgery-car-transfers-home-agra",
+      "After Surgery in Agra: Safer Car Transfers and…"
+    ]
+  ],
+  "back-pain-physiotherapy": [
+    [
+      "physiotherapy-for-low-back-pain",
+      "Read the low back pain physiotherapy guide"
+    ],
+    [
+      "sciatica-physiotherapy-treatment-guide",
+      "Sciatica: What Physiotherapy Can and Cannot…"
+    ],
+    [
+      "lumbar-slipped-disc-l3-l4-l4-l5-l5-s1",
+      "Lumbar Slipped Disc: L3–L4, L4–L5, L5–S1…"
+    ]
+  ],
+  "knee-pain-physiotherapy": [
+    [
+      "knee-osteoarthritis-physiotherapy-guide",
+      "Read about exercise-based knee osteoarthritis…"
+    ],
+    [
+      "knee-replacement-recovery-guide",
+      "Knee Replacement Recovery: A Week-by-Week…"
+    ],
+    [
+      "knee-replacement-swelling-load-tolerance-exercise-surat",
+      "After Knee Replacement in Surat: Monitoring…"
+    ]
+  ],
+  "post-surgery-rehabilitation": [
+    [
+      "knee-replacement-recovery-guide",
+      "Read the knee replacement recovery guide"
+    ],
+    [
+      "hip-replacement-homecare-physiotherapy",
+      "Read about hip replacement home physiotherapy"
+    ],
+    [
+      "post-surgery-stairs-community-mobility-pune",
+      "Post-Surgery Physiotherapy for Stairs and…"
+    ]
+  ],
+  "stroke-rehabilitation": [
+    [
+      "stroke-rehabilitation-at-home",
+      "Read the stroke rehabilitation at home guide"
+    ],
+    [
+      "stroke-physiotherapy-assessment-home-ahmedabad",
+      "After a Stroke in Ahmedabad: How Physiotherapy…"
+    ],
+    [
+      "upper-limb-task-retraining-after-stroke-hyderabad",
+      "Upper-Limb Physiotherapy After Stroke in…"
+    ]
+  ],
+  "pain-management-physiotherapy": [
+    [
+      "neck-pain-cervical-stiffness-physiotherapy",
+      "Neck Pain and Cervical Stiffness: A Safe…"
+    ],
+    [
+      "tfcc-overuse-pain-rehabilitation-guide",
+      "TFCC Overuse Pain: A Physiotherapy Guide to…"
+    ],
+    [
+      "physiotherapy-for-low-back-pain",
+      "Low Back Pain: How Physiotherapy Assessment…"
+    ]
+  ],
+  "pregnancy-postpartum-support": [
+    [
+      "moving-during-pregnancy-exercise-screening-bengaluru",
+      "Moving during pregnancy: what screening should…"
+    ],
+    [
+      "pelvic-floor-physiotherapy-after-childbirth-delhi",
+      "Pelvic Floor Physiotherapy After Childbirth in…"
+    ],
+    [
+      "first-physiotherapy-assessment-guide",
+      "Your First Physiotherapy Assessment: Tests,…"
+    ]
+  ],
+  "infant-early-development-physiotherapy": [
+    [
+      "preterm-birth-developmental-follow-up-questions-bengaluru",
+      "After a preterm birth: what developmental…"
+    ],
+    [
+      "home-physiotherapy-developmental-motor-delay-tigaon",
+      "Home Physiotherapy for Children With…"
+    ],
+    [
+      "child-disability-rehabilitation-play-routines-participation-bengaluru",
+      "Child disability rehabilitation at home:…"
+    ]
+  ],
+  "pediatric-disability-rehabilitation": [
+    [
+      "child-disability-rehabilitation-play-routines-participation-bengaluru",
+      "Child disability rehabilitation at home:…"
+    ],
+    [
+      "home-physiotherapy-developmental-motor-delay-tigaon",
+      "Home Physiotherapy for Children With…"
+    ],
+    [
+      "preterm-birth-developmental-follow-up-questions-bengaluru",
+      "After a preterm birth: what developmental…"
+    ]
+  ],
+  "online-physiotherapy": [
+    [
+      "stroke-telerehabilitation-caregiver-coaching-chennai",
+      "Stroke Telerehabilitation in Chennai:…"
+    ],
+    [
+      "first-physiotherapy-assessment-guide",
+      "Your First Physiotherapy Assessment: Tests,…"
+    ],
+    [
+      "physiotherapy-for-low-back-pain",
+      "Low Back Pain: How Physiotherapy Assessment…"
+    ]
+  ],
+  "exercise-physiologist": [
+    [
+      "walking-aid-balance-household-route-udaipur",
+      "Exercise Physiology in Udaipur: Walking-Aid…"
+    ],
+    [
+      "exercise-planning-interrupted-sleep-rehabilitation-patna",
+      "Exercise Physiology in Patna: Planning…"
+    ],
+    [
+      "walking-cycling-endurance-recovery-exercise-physiology-surat",
+      "Exercise Physiology in Surat: Rebuilding a…"
+    ]
+  ],
+  "neck-pain": [
+    [
+      "neck-pain-cervical-stiffness-physiotherapy",
+      "Neck Pain and Cervical Stiffness: A Safe…"
+    ],
+    [
+      "physiotherapy-for-low-back-pain",
+      "Low Back Pain: How Physiotherapy Assessment…"
+    ],
+    [
+      "first-physiotherapy-assessment-guide",
+      "Your First Physiotherapy Assessment: Tests,…"
+    ]
+  ],
+  "sciatica": [
+    [
+      "sciatica-physiotherapy-treatment-guide",
+      "Sciatica: What Physiotherapy Can and Cannot…"
+    ],
+    [
+      "lumbar-slipped-disc-l3-l4-l4-l5-l5-s1",
+      "Lumbar Slipped Disc: L3–L4, L4–L5, L5–S1…"
+    ],
+    [
+      "physiotherapy-for-low-back-pain",
+      "Low Back Pain: How Physiotherapy Assessment…"
+    ]
+  ],
+  "arthritis-osteoarthritis": [
+    [
+      "knee-osteoarthritis-physiotherapy-guide",
+      "Knee Osteoarthritis: Exercise-Based…"
+    ],
+    [
+      "knee-replacement-recovery-guide",
+      "Knee Replacement Recovery: A Week-by-Week…"
+    ],
+    [
+      "hip-replacement-homecare-physiotherapy",
+      "Hip Replacement Recovery: A Homecare…"
+    ]
+  ],
+  "parkinsons-rehab": [
+    [
+      "parkinsons-physiotherapy-guide",
+      "Physiotherapy for Parkinson's Disease:…"
+    ],
+    [
+      "parkinsons-freezing-turning-home-physiotherapy-thiruvananthapuram",
+      "Parkinson's Freezing and Turning in…"
+    ],
+    [
+      "parkinsons-constipation-appetite-meal-questions-mysuru",
+      "Parkinson’s Rehabilitation in Mysuru:…"
+    ]
+  ],
+  "weight-management": [
+    [
+      "diet-and-fat-loss",
+      "Diet and Fat Loss: A Practical Guide for…"
+    ],
+    [
+      "geriatric-rehabilitation-appetite-chewing-weight-questions-madurai",
+      "Geriatric Rehabilitation in Madurai: Appetite,…"
+    ],
+    [
+      "pulmonary-rehabilitation-meal-fatigue-weight-change-mangaluru",
+      "Pulmonary Rehab in Mangaluru: Meal Fatigue and…"
+    ]
+  ]
+}

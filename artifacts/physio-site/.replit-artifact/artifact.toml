@@ -1,0 +1,26 @@
+kind = "web"
+previewPath = "/"
+title = "PhysioTherapist Landing Page"
+version = "1.0.0"
+id = "artifacts/physio-site"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23411
+
+[services.development]
+run = "pnpm --filter @workspace/physio-site run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/physio-site", "run", "build" ]
+run = "NODE_ENV=production node artifacts/physio-site/serve.mjs"
+
+[services.env]
+PORT = "23411"
+BASE_PATH = "/"

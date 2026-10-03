@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
+
+  <!-- Core indexable pages -->
+  <url><loc>https://goswamirehab.in/</loc></url>
+  <url><loc>https://goswamirehab.in/hi</loc></url>
+  <url><loc>https://goswamirehab.in/booking</loc></url>
+  <url><loc>https://goswamirehab.in/online-care</loc></url>
+  <url><loc>https://goswamirehab.in/contact</loc></url>
+  <url><loc>https://goswamirehab.in/about</loc></url>
+  <url><loc>https://goswamirehab.in/reviews</loc></url>
+  <url><loc>https://goswamirehab.in/cities</loc></url>
+  <url><loc>https://goswamirehab.in/blog</loc></url>
+  <url><loc>https://goswamirehab.in/privacy</loc></url>
+  <url><loc>https://goswamirehab.in/terms</loc></url>
+
+  <!-- Hindi routes are generated only from the reviewed route registry. -->
+  <!-- HINDI_ROUTE_SITEMAP_ENTRIES_START -->
+  <!-- HINDI_ROUTE_SITEMAP_ENTRIES_END -->
+
+  <!-- Canonical service-guide pages -->
+  <url><loc>https://goswamirehab.in/online-physiotherapy</loc></url>
+  <url><loc>https://goswamirehab.in/home-physiotherapy</loc></url>
+  <url><loc>https://goswamirehab.in/nutritionist-dietitian-online</loc></url>
+  <url><loc>https://goswamirehab.in/exercise-physiologist</loc></url>
+  <url><loc>https://goswamirehab.in/back-pain</loc></url>
+  <url><loc>https://goswamirehab.in/neck-pain</loc></url>
+  <url><loc>https://goswamirehab.in/knee-pain</loc></url>
+  <url><loc>https://goswamirehab.in/sciatica</loc></url>
+  <url><loc>https://goswamirehab.in/arthritis-osteoarthritis</loc></url>
+  <url><loc>https://goswamirehab.in/services/cardiopulmonary-rehabilitation</loc></url>
+  <url><loc>https://goswamirehab.in/services/advanced-complex-case-recovery</loc></url>
+  <url><loc>https://goswamirehab.in/services/clinical-assessment-evaluation</loc></url>
+  <url><loc>https://goswamirehab.in/sports-injury-rehabilitation</loc></url>
+  <url><loc>https://goswamirehab.in/services/functional-training</loc></url>
+  <url><loc>https://goswamirehab.in/parkinsons-rehab</loc></url>
+  <url><loc>https://goswamirehab.in/weight-management</loc></url>
+  <url><loc>https://goswamirehab.in/services/rehabilitation-programs</loc></url>
+  <url><loc>https://goswamirehab.in/post-surgery-rehab</loc></url>
+  <url><loc>https://goswamirehab.in/stroke-rehab</loc></url>
+  <url><loc>https://goswamirehab.in/services/pain-management-physiotherapy</loc></url>
+  <url><loc>https://goswamirehab.in/services/pregnancy-postpartum-support</loc></url>
+  <url><loc>https://goswamirehab.in/services/infant-early-development-physiotherapy</loc></url>
+  <url><loc>https://goswamirehab.in/services/pediatric-disability-rehabilitation</loc></url>
+
+  <!-- Journal category URLs are generated from the same category catalog. -->
+  <!-- CATEGORY_SITEMAP_ENTRIES_START -->
+  <!-- CATEGORY_SITEMAP_ENTRIES_END -->
+
+  <!-- Blog article URLs are generated from prerender.mjs's blogPosts list. -->
+  <!-- BLOG_SITEMAP_ENTRIES_START -->
+  <!-- BLOG_SITEMAP_ENTRIES_END -->
+
+  <!-- City landing pages are generated from the authored city catalog. -->
+  <!-- CITY_SITEMAP_ENTRIES_START -->
+  <!-- CITY_SITEMAP_ENTRIES_END -->
+
+  <!-- State landing pages are added only when a state profile passes the indexability guard. -->
+  <!-- STATE_SITEMAP_ENTRIES_START -->
+  <!-- STATE_SITEMAP_ENTRIES_END -->
+
+</urlset>

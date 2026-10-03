@@ -1,0 +1,66 @@
+User-agent: AI2Bot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ImagesiftBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# Keep ordinary search indexing available.
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: *
+Allow: /
+
+# Keep public landing pages crawlable so search engines can process their
+# canonical, robots, and structured-data signals. Prefilled booking variants
+# publish noindex through HTML and X-Robots-Tag; robots.txt cannot target only
+# their query strings without blocking the clean booking landing page too.
+
+# goswamirehab.in sitemap
+Sitemap: https://goswamirehab.in/sitemap.xml
+Sitemap: https://goswamirehab.in/sitemap-in.xml

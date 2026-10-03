@@ -1,0 +1,18 @@
+export const AI_CRAWLER_TOKENS = [
+  "ai2bot",
+  "amazonbot",
+  "applebot-extended",
+  "bytespider",
+  "ccbot",
+  "chatgpt-user",
+  "claudebot",
+  "cohere-ai",
+  "google-extended",
+  "gptbot",
+  "imagesiftbot",
+  "meta-externalagent",
+  "meta-externalfetcher",
+  "oai-searchbot",
+  "perplexitybot",
+  "youbot",
+];

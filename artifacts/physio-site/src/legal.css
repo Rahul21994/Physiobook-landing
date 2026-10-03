@@ -1,0 +1,34 @@
+.legal-prose {
+  max-width: none;
+  color: hsl(var(--foreground) / 0.8);
+  line-height: 1.75;
+}
+
+.legal-prose > * + * {
+  margin-top: 2rem;
+}
+
+.legal-prose h2,
+.legal-prose h3 {
+  color: hsl(var(--foreground));
+  font-family: var(--font-serif);
+  font-weight: 700;
+}
+
+.legal-prose h2 {
+  font-size: 1.5rem;
+}
+
+.legal-prose h3 {
+  font-size: 1.25rem;
+}
+
+.legal-prose a {
+  color: hsl(var(--primary));
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+}
+
+.legal-prose a:hover {
+  color: hsl(var(--primary) / 0.8);
+}

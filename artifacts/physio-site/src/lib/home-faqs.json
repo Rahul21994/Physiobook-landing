@@ -1,0 +1,30 @@
+[
+  {
+    "q": "How do I book a physiotherapist at home in one of the 45 listed cities?",
+    "a": "Fill in our online form with your name, contact details, condition, exact locality, and preferred date. Home visits and online consultation are available in all 45 listed cities. A locality name is only a reference; the team confirms the exact address and clinician availability before booking."
+  },
+  {
+    "q": "What rehabilitation services do you provide with homecare physiotherapy?",
+    "a": "We provide neurological rehabilitation for stroke recovery, Parkinson's physiotherapy, TBI rehabilitation, and Guillain-Barré rehabilitation; orthopaedic rehabilitation after knee or hip replacement and rotator cuff repair; cardiopulmonary rehabilitation for COPD, cardiac rehabilitation after bypass, and heart failure; advanced complex-case and post-ICU rehabilitation; back and neck pain physiotherapy; and sports injury physiotherapy. We also offer clinical assessment protocols, occupational therapy, and functional training."
+  },
+  {
+    "q": "Why are introductory prices currently available?",
+    "a": "Introductory rates help us expand coordinated home-visit coverage and gather early patient feedback while maintaining transparent pricing. Home visit sessions are currently {{homeVisitAmount}} instead of the usual {{homeVisitRegularAmount}}, and online consultations are {{telehealthAmount}} instead of {{telehealthRegularAmount}}. Rates may change as the service grows; we will show any update clearly before booking."
+  },
+  {
+    "q": "Which cities do you serve for homecare physiotherapy?",
+    "a": "Home visits and online consultation are available in all 45 cities listed in our city directory. Choose your city to see named locality references and care options. City-level availability does not guarantee every neighbourhood, so the team confirms your exact locality and clinician availability before booking."
+  },
+  {
+    "q": "What is cardiopulmonary rehabilitation and who needs it?",
+    "a": "Cardiopulmonary rehabilitation is a specialised homecare physiotherapy program for patients with COPD, asthma, post-bypass recovery, heart failure, and other cardiac or respiratory conditions. It may include breathing retraining, airway clearance, graded exercise, and energy conservation strategies, with the treating medical team setting safe precautions."
+  },
+  {
+    "q": "How soon after surgery can physiotherapy begin at home?",
+    "a": "For many orthopaedic surgeries, physiotherapy-led rehabilitation after knee replacement, hip replacement, or rotator cuff repair begins during the early post-surgery phase and can continue at home after discharge. The treating team sets the safe timing based on the operation, medical status, precautions, and recovery goals."
+  },
+  {
+    "q": "Do you provide physiotherapy for stroke patients at home?",
+    "a": "Yes — stroke rehabilitation is one of our core specialties. We provide homecare physiotherapy for stroke patients targeting mobility, upper limb function, and activities of daily living across all 45 listed cities. Share your exact locality; the team confirms clinician availability before booking."
+  }
+]
