@@ -19,7 +19,7 @@ export default function Privacy() {
           </Link>
 
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">Privacy Policy</h1>
-          <p className="text-sm text-muted-foreground mb-12">Last updated: 27 September 2026</p>
+          <p className="text-sm text-muted-foreground mb-12">Last updated: 6 November 2026</p>
 
           <div className="legal-prose">
 
@@ -36,6 +36,7 @@ export default function Privacy() {
               <ul className="list-disc pl-6 mt-3 space-y-2">
                 <li><strong>Contact information</strong> — your name, phone number, and email address provided when you submit a booking, consultation, or contact request.</li>
                 <li><strong>Health information</strong> — details about your condition or the type of service you are seeking, provided voluntarily in a consultation or booking request.</li>
+                <li><strong>AI chat data</strong> — messages and feedback you choose to submit through the website chat after giving separate AI-processing consent.</li>
                 <li><strong>Usage data</strong> — standard web server logs including your IP address, browser type, and pages visited, collected automatically when you browse our website.</li>
               </ul>
             </section>
@@ -48,6 +49,7 @@ export default function Privacy() {
                 <li>Review and respond to consultation and contact requests.</li>
                 <li>Coordinate a homecare session or online consultation that you request.</li>
                 <li>Send you service-related communications (e.g. appointment confirmations).</li>
+                <li>Generate general-information chat replies only if you first consent to AI processing.</li>
               </ul>
               <p className="mt-3">We do not sell booking or contact details that you submit, or use those submitted details to target advertising.</p>
             </section>
@@ -55,14 +57,14 @@ export default function Privacy() {
             <section>
               <h2 className="font-serif text-2xl font-semibold text-foreground mb-3">4. Health Information</h2>
               <p>
-                Any health-related information you share with us is treated as sensitive personal data under the Digital Personal Data Protection Act, 2023 (DPDP Act). We collect this information only when you voluntarily provide it, use it exclusively to deliver the physiotherapy or training service you have requested, and do not disclose it to any third party without your explicit consent.
+                Any health-related information you share with us is treated as sensitive personal data under the Digital Personal Data Protection Act, 2023 (DPDP Act). We collect this information only when you voluntarily provide it and use it for the service or request you choose. If you use the AI chat, your chat message is sent to OpenAI through Replit AI Integrations to generate a reply only after you give separate, explicit consent in the widget. Do not enter detailed medical records or identifying health information in chat. See Sections 5 and 7 for chat retention and provider details.
               </p>
             </section>
 
             <section>
               <h2 className="font-serif text-2xl font-semibold text-foreground mb-3">5. Data Storage and Security</h2>
               <p>
-                Consultation requests, bookings, and contact details are stored in a secure, password-protected database hosted on Replit's infrastructure. We apply reasonable technical measures to protect your data from unauthorised access, loss, or disclosure. We retain your data for as long as necessary to provide the service and meet any applicable legal obligations, typically no longer than two years from your last interaction with us.
+                Consultation requests, bookings, and contact details are stored in a secure, password-protected database hosted on Replit's infrastructure. We apply reasonable technical measures to protect your data from unauthorised access, loss, or disclosure. We retain these records for as long as necessary to provide the service and meet applicable legal obligations, typically no longer than two years from your last interaction with us. Chat messages and their feedback are stored separately for up to 90 days and are automatically deleted after that period; use “Clear chat” in the widget to delete them from our database sooner. Callback details are stored separately for up to two years from submission under the contact-request retention policy and are not attached to the chat transcript.
               </p>
             </section>
 
@@ -71,6 +73,7 @@ export default function Privacy() {
               <p>We do not sell, rent, or trade your personal information. We may share it only in the following limited circumstances:</p>
               <ul className="list-disc pl-6 mt-3 space-y-2">
                 <li><strong>Service delivery</strong> — with our own clinical staff who need it to provide your session.</li>
+                <li><strong>AI chat</strong> — only after your separate, explicit consent, the message you submit is sent to OpenAI through Replit AI Integrations to generate a general-information reply.</li>
                 <li><strong>Legal obligations</strong> — if required by law or a valid government authority.</li>
                 <li><strong>Business transfer</strong> — in the unlikely event that the business is transferred, your data would transfer under the same privacy protections described here.</li>
               </ul>
@@ -84,6 +87,7 @@ export default function Privacy() {
               </p>
                <ul className="list-disc pl-6 mt-3 space-y-2">
                  <li><strong>Replit</strong> — hosting, application runtime, and database infrastructure.</li>
+                <li><strong>OpenAI through Replit AI Integrations</strong> — processing chat messages to generate replies, only after you give explicit consent in the chat widget.</li>
                 <li><strong>Google Gmail</strong> — delivery of consultation, booking, contact, feedback, and requested document notifications.</li>
                  <li><strong>Google Tag Manager</strong> — managing website tags; tags enabled in the container may send technical or usage information to Google or the relevant tag provider.</li>
                </ul>
